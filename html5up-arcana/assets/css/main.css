@@ -1827,6 +1827,13 @@
 		a:hover {
 			color: #FFC300;
 			border-bottom-color: transparent;
+			/* This part I added because I wanted the links to fade into teal upon hover. */
+			letter-spacing: 1px;
+			-webkit-transition: all 0.3s ease;
+			-moz-transition: all 0.3s ease;
+			-o-transition: all 0.3s ease;
+			transition: all 0.3s ease;
+			font-weight: bold;
 		}
 
 	strong, b {
@@ -2359,6 +2366,18 @@
 				border: 0;
 			}
 
+			#header h1 a:hover{
+				letter-spacing: 1 px;
+				font-weight: bold;
+				/* This part I added because I wanted the links to fade into spacing upon hover. */
+				letter-spacing: 1px;
+				-webkit-transition: all 0.3s ease;
+				-moz-transition: all 0.3s ease;
+				-o-transition: all 0.3s ease;
+				transition: all 0.3s ease;
+				font-style: italic;
+			}
+
 	#nav {
 		cursor: default;
 		background-color: #333;
@@ -2599,18 +2618,17 @@
 			transition: opacity .25s ease-in-out;
 			-moz-transition: opacity .25s ease-in-out;
 			-webkit-transition: opacity .25s ease-in-out;
-			/* This part I added because I wanted the links to fade into teal upon hover. */
-			-webkit-transition: all 0.3s ease;
-			-moz-transition: all 0.3s ease;
-			-o-transition: all 0.3s ease;
-			transition: all 0.3s ease;
-			font-weight: bold;
-
 		}
 
 			#footer a:hover {
 				color: #FFC300;
 				border-bottom-color: transparent;
+				/* This part I added because I wanted the links to fade into teal upon hover. */
+				-webkit-transition: all 0.3s ease;
+				-moz-transition: all 0.3s ease;
+				-o-transition: all 0.3s ease;
+				transition: all 0.3s ease;
+				font-weight: bold;
 			}
 
 		#footer .container {
