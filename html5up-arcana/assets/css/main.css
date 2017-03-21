@@ -2244,7 +2244,11 @@
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
+			/*
 			background-color: #50c8fb;
+			leaving in the original for reference
+			*/
+			background-color: #ffc91a;
 			color: #fff !important;
 		}
 
@@ -2252,7 +2256,10 @@
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
+			/*
 			background-color: #1eb8fb;
+			*/
+			background-color: #FFC300;
 			color: #fff;
 		}
 
