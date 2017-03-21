@@ -2587,6 +2587,18 @@
 		#footer a {
 			color: inherit;
 			border-bottom-color: rgba(71, 71, 71, 0.25);
+			/* I'm attempting to add a faded hover here. We'll see how this goes. */
+			opacity: 1;
+			transition: opacity .25s ease-in-out;
+			-moz-transition: opacity .25s ease-in-out;
+			-webkit-transition: opacity .25s ease-in-out;
+			/* This part I added because I wanted the links to fade into teal upon hover. */
+			-webkit-transition: all 0.3s ease;
+			-moz-transition: all 0.3s ease;
+			-o-transition: all 0.3s ease;
+			transition: all 0.3s ease;
+			font-weight: bold;
+
 		}
 
 			#footer a:hover {
