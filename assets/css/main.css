@@ -191,8 +191,8 @@
 
 	@media screen and (max-width: 736px) {
 
-		#logo {
-				display: none;
+		.resonsive .logo {
+				display: none !important;
 			}
 
 		.container.\31 25\25 {
@@ -221,8 +221,8 @@
 
 	@media screen and (max-width: 480px) {
 
-		#logo {
-				display: none;
+		.resonsive .logo {
+				display: none !important;
 			}
 
 		.container.\31 25\25 {
@@ -3140,7 +3140,7 @@
 
 	@media screen and (max-width: 480px) {
 
-		.logo {
+		.responsive .logo {
 				display: none !important;
 			}
 
