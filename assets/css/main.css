@@ -3069,7 +3069,7 @@
 /* larger mobile*/
 	@media screen and (max-width: 736px) {
 
-		.logo {
+		.responsive .logo {
 				display: none !important;
 			}
 
