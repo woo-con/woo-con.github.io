@@ -3066,10 +3066,11 @@
 
 /* Mobile */
 
+/* larger mobile*/ 
 	@media screen and (max-width: 736px) {
 
 		#logo {
-				display: none;
+				display: none !important;
 			}
 
 		/* Basic */
@@ -3135,11 +3136,12 @@
 	}
 
 /* Mobile (Portrait) */
+/* smaller mobile */
 
 	@media screen and (max-width: 480px) {
 
 		#logo {
-				display: none;
+				display: none !important;
 			}
 
 		/* Lists */
