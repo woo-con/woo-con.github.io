@@ -191,6 +191,10 @@
 
 	@media screen and (max-width: 736px) {
 
+		#logo {
+				display: none;
+			}
+
 		.container.\31 25\25 {
 			width: 100%;
 			max-width: 112.5%;
@@ -3064,6 +3068,10 @@
 
 	@media screen and (max-width: 736px) {
 
+		#logo {
+				display: none;
+			}
+
 		/* Basic */
 
 			body, input, select, textarea {
@@ -3129,6 +3137,10 @@
 /* Mobile (Portrait) */
 
 	@media screen and (max-width: 480px) {
+
+		#logo {
+				display: none;
+			}
 
 		/* Lists */
 
