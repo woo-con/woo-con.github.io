@@ -55,6 +55,7 @@
 					'</div>'
 				)
 					.appendTo($body);
+					// Note: To add logo back in, add "$('#logo').html()" in between <span class="title"> + </span>, with a plus inbetween
 
 			// Navigation Panel.
 				$(
