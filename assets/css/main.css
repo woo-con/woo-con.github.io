@@ -3066,10 +3066,10 @@
 
 /* Mobile */
 
-/* larger mobile*/ 
+/* larger mobile*/
 	@media screen and (max-width: 736px) {
 
-		#logo {
+		.logo {
 				display: none !important;
 			}
 
@@ -3140,7 +3140,7 @@
 
 	@media screen and (max-width: 480px) {
 
-		#logo {
+		.logo {
 				display: none !important;
 			}
 
