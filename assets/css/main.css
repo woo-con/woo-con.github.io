@@ -2774,8 +2774,8 @@
 
 /* Narrower */
 /* does this count for mobile phones? we'll find out! */
-	#navPanel, #titleBar, #logo, #h1 {
-		display: none;
+	#navPanel, #titleBar, #logo, {
+		display: none !important;
 	}
 
 	@media screen and (max-width: 840px) {
