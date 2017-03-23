@@ -191,7 +191,7 @@
 
 	@media screen and (max-width: 736px) {
 
-		.resonsive .logo {
+		#logo {
 				display: none !important;
 			}
 
@@ -221,7 +221,7 @@
 
 	@media screen and (max-width: 480px) {
 
-		.resonsive .logo {
+		#logo {
 				display: none !important;
 			}
 
@@ -2773,8 +2773,8 @@
 	}
 
 /* Narrower */
-
-	#navPanel, #titleBar {
+/* does this count for mobile phones? we'll find out! */ 
+	#navPanel, #titleBar, #logo {
 		display: none;
 	}
 
@@ -3069,7 +3069,7 @@
 /* larger mobile*/
 	@media screen and (max-width: 736px) {
 
-		.responsive .logo {
+		#logo {
 				display: none !important;
 			}
 
@@ -3140,7 +3140,7 @@
 
 	@media screen and (max-width: 480px) {
 
-		.responsive .logo {
+		#logo {
 				display: none !important;
 			}
 
