@@ -2773,8 +2773,8 @@
 	}
 
 /* Narrower */
-/* does this count for mobile phones? we'll find out! */ 
-	#navPanel, #titleBar, #logo {
+/* does this count for mobile phones? we'll find out! */
+	#navPanel, #titleBar, #logo, #h1 {
 		display: none;
 	}
 
