@@ -2195,6 +2195,15 @@ Edited by Katherine Randazzo (@krcoding on GitHub).
 
 /* Tables */
 
+#schedule_table table, tr, td {
+	border: 3px solid black;
+	border-collapse: collapse; !important
+}
+
+#schedule_table tr:hover {
+	background-color: #FC0;
+}
+
 	table {
 		width: 100%;
 	}
